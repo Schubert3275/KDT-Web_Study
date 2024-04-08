@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML Tag table</title>
+    </head>
+    <body>
+        <h3>테이블 태그 살펴보기</h3>
+        <hr size="5" />
+        <center>
+            <table border="2" width="80%">
+                <tr bgcolor="skyblue">
+                    <td width="40%">이름</td>
+                    <td width="30%">나이</td>
+                    <td width="30%">성별</td>
+                </tr>
+                <tr>
+                    <td>김수한무거북이와두루미삼천갑자</td>
+                    <td>12</td>
+                    <td>남자</td>
+                </tr>
+            </table>
+        </center>
+        <br />
+        <table border="1">
+            <caption>
+                표 병합
+            </caption>
+            <tr>
+                <th>1열</th>
+                <th>2열</th>
+                <th>3열</th>
+            </tr>
+            <tr>
+                <td rowspan="2">1행 1열</td>
+                <td>1행 2열</td>
+                <td>1행 3열</td>
+            </tr>
+            <tr>
+                <td>2행 2열</td>
+                <td>2행 3열</td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: center">3행 1열</td>
+            </tr>
+        </table>
+    </body>
+</html>

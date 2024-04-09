@@ -47,7 +47,28 @@
 | `DAY_01\table.html`     | 테이블     |
 | `DAY_01\div.html`       | 그룹       |
 
-#### DAY01 실습과제
+### DAY02
+
+---
+
+<details>
+<summary>  </summary>
+
+> -
+
+</details>
+
+---
+
+| 파일명                   | 내용          |
+| ------------------------ | ------------- |
+| `DAY_02\iframe.html`     | iframe        |
+| `DAY_02\form_input.html` | input         |
+| `DAY_02\result.html`     | select        |
+| `DAY_02\css_01.html`     | css 선택자    |
+| `DAY_02\css_02.html`     | css 자손,자식 |
+
+#### DAY02 실습과제
 
 ---
 

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Result</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>기본 정보</legend>
+                <p>
+                    <label for="userid">아이디&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text" id="userid" placeholder="아이디를 입력하세요" />
+                </p>
+                <p>
+                    <label for="pword">비밀번호&nbsp;</label>
+                    <input type="password" id="pword" placeholder="비밀번호를 입력하세요" />
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>선택 정보</legend>
+                <p>
+                    <label for="age">나이&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="number" id="age" />
+                </p>
+                <p>
+                    <label for="recommender">추천인&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text" id="recommender" />
+                </p>
+                <p>
+                    <label for="extra">추가 입력</label>
+                    <textarea name="desc" id="extra" cols="23" rows="2"></textarea>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>개발자</legend>
+                <p>
+                    <label for="we">업무</label>
+                    <select name="web" id="web" size="2" multiple>
+                        <optgroup label="웹개발">
+                            <option value="프론트">프론트</option>
+                            <option value="백엔드">백엔드</option>
+                        </optgroup>
+                        <optgroup label="데이터">
+                            <option value="시각화">시각화</option>
+                            <option value="분석">분석</option>
+                            <option value="기획">기획</option>
+                        </optgroup>
+                    </select>
+                </p>
+            </fieldset>
+            <p><input type="submit" /></p>
+        </form>
+    </body>
+</html>

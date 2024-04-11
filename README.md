@@ -52,9 +52,29 @@
 ---
 
 <details>
-<summary>  </summary>
+<summary> 멀티미디어 관련 태그 </summary>
 
-> -
+> -   <audio>
+> -   <video>
+> -   <iframe>
+> -   <div>
+> -   <span>
+
+</details>
+<details>
+<summary> 입력 양식 </summary>
+
+> -   Form 관련 태그
+> -   get/post
+
+</details>
+<details>
+<summary> css 기초 </summary>
+
+> -   선택자
+> -   자손, 자식 선택자
+> -   의사 클래스
+> -   외부 스타일 시트
 
 </details>
 

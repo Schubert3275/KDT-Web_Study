@@ -162,5 +162,6 @@ cython_debug/
 
 example_code/
 data/animals/
+data/text/
 DAY_01/work_0408/classifier_1000_1024_1.pt
 DAY_01/work_0408/classifier_1000_1024_2.pt

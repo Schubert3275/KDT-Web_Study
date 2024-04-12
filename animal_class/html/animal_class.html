@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Input Image</title>
+    </head>
+    <body>
+        <h2>이미지를 선택하세요</h2>
+        <hr color="blue" size="2" />
+
+        <form method="post" action="../cgi-bin/send_img.py" enctype="multipart/form-data">
+            <input type="file" name="img_file" accept="image/png, image/jpeg" /><br />
+            <input type="submit" />
+            <hr color="blue" size="2" />
+            <fieldset>
+                <legend>RESULT</legend>
+                <center>
+                    <img src="{}" alt="{}" style="width: 50%" />
+                    <br /><br />
+                    <h3>{}</h3>
+                </center>
+            </fieldset>
+        </form>
+    </body>
+</html>

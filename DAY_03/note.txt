@@ -1,0 +1,12 @@
+## 클라이언트 요청 ====> 서버로 전송
+- 관련 태그 : form 태그
+
+- form 태그 역할
+    * input 태그에 사용자가 입력한 데이터를 서버로 전송 ==> 어떻게(Get/ Post)
+                                                        ==> 누가 : 파일 지정
+    * 형식
+        <form method="get/post/put/delete" action="url, 파일명">
+            <input type="text" name="이름">     ==> 이름=XXX
+            <input type="email" name="이메일">  ==> 이메일=xxx@vvv.com
+            <input type="submit">
+        </form>

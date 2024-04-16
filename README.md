@@ -1,4 +1,4 @@
-## Natural Language Processing
+## Web 기초
 
 <details>
 <summary>사용 교재</summary>
